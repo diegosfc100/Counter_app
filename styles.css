@@ -23,6 +23,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #a3f7bf;
 }
 
 p {
@@ -33,9 +34,11 @@ p {
 img {
   width: 100%;
 }
-
+h1{
+    font-size: 3.5rem;
+}
 .container {
-  max-width: 900px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 0 20px;
   display:flex;
@@ -48,7 +51,7 @@ img {
     width:40rem;
     border: 1px solid var(--grey);
     padding: 1rem;
-    background-color: var(--light-blue);
+    background-color: #19456B;
     color:var(--white);
     text-align: center;
     border-radius: 5px;
@@ -59,7 +62,7 @@ img {
 }
 
 .count {
-    font-size: 5rem;
+    font-size: 9rem;
 }
 
 button{
@@ -75,7 +78,7 @@ button{
 }
 
 .subtract{
-    background-color: tomato;
+    background-color: #F58634;
 }
 
 .reset{
@@ -84,5 +87,5 @@ button{
 }
 
 .add{
-    background-color: green;
+    background-color: #16C79A;
 }
