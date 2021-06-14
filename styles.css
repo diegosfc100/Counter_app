@@ -52,6 +52,37 @@ img {
     color:var(--white);
     text-align: center;
     border-radius: 5px;
+}
 
+.counter-div > * {
+    margin-bottom: 2rem;
+}
 
+.count {
+    font-size: 5rem;
+}
+
+button{
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    border-radius: 20px;
+    color: var(--white);
+    cursor:pointer;
+}
+
+.subtract{
+    background-color: tomato;
+}
+
+.reset{
+    background-color: var(--white);
+    color:var(--black)
+}
+
+.add{
+    background-color: green;
 }
