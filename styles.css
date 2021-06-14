@@ -43,3 +43,15 @@ img {
   align-items: center;
   height:100vh;
 }
+
+.counter-div{
+    width:40rem;
+    border: 1px solid var(--grey);
+    padding: 1rem;
+    background-color: var(--light-blue);
+    color:var(--white);
+    text-align: center;
+    border-radius: 5px;
+
+
+}
