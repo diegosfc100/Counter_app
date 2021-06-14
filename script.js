@@ -20,9 +20,9 @@ buttons.addEventListener('click', event => {
 });
 
 const setColor = () => {
-    if(count.innerHTML > 0) count.style.color = "green"; 
+    if(count.innerHTML > 0) count.style.color = "#16C79A"; 
 
-    else if (count.innerHTML < 0) count.style.color = "tomato"
+    else if (count.innerHTML < 0) count.style.color = "#F58634"
 
     else count.style.color = "#fff"    
 }
